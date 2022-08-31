@@ -12,7 +12,7 @@ public class MessageUnPacker
         ISOMsg isoMsg = new ISOMsg();
         isoMsg.setPackager(packager);
 
-        String message = "0100323800000000000001000000000000200008310522111234560522110831";
+        String message = "0100323800000000000001000000000000200008310539221234560539220831";
 
         byte[] bIsoMsg = new byte[message.length()];
         for (int i = 0; i < bIsoMsg.length; i++){
